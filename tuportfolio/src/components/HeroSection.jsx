@@ -1,4 +1,6 @@
 import React from 'react';
+import meImage from '../assets/images/me.png';
+import profileImage from '../assets/images/White_Gradient_Creative_Instagram_Profile_Picture-removebg-preview.png'; // استيراد الصورة
 
 const HeroSection = () => {
   return (
@@ -10,7 +12,7 @@ const HeroSection = () => {
             <div className="hero-text">
               <div className="hero-title-wrap d-flex align-items-center mb-4">
                 <img 
-                  src="images/me.png" 
+                  src={meImage}
                   className="avatar-image avatar-image-large img-fluid" 
                   alt="me" 
                   width="2px" 
@@ -31,7 +33,7 @@ const HeroSection = () => {
           <div className="col-lg-5 col-12 position-relative">
             <div className="hero-image-wrap"></div>
             <img 
-              src="images/White_Gradient_Creative_Instagram_Profile_Picture-removebg-preview.png" 
+            src={profileImage}
               className="hero-image img-fluid" 
               alt="hero" 
               width="1px" 

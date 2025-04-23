@@ -11,10 +11,10 @@ https://templatemo.com/tm-578-first-portfolio
   CUSTOM PROPERTIES ( VARIABLES )             
 -----------------------------------------*/
 :root {
-  --white-color:                  #ffffff;
+  --white-color:                  lightgreen;
   --primary-color:                pink;
   --secondary-color:             lightgreen;
-  --section-bg-color:             #f9f9f9;
+  --section-bg-color:            lightgreen;
   --dark-color:                   #000000;
   --p-color:                      #717275;
   --border-color:                 #e9eaeb;
@@ -253,7 +253,7 @@ strong {
   border-width: 2px;
   border-style: solid;
   border-color: var(--white-color);
-  color: var(--white-color);
+  color: black;
   padding: 8px 22px;
 }
 

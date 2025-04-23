@@ -1,6 +1,9 @@
 import React from 'react';
+import phoneIcon from '../assets/images/call_cellular_contact_phone_icon.png';
+import linkedInIcon from '../assets/images/linkedIn icon.png';
 
 function ContactSection({ socialLinks, servicess, contactInfo }) {
+ 
   return (
     <section className="contact section-padding" id="section_5">
       <div className="container">
@@ -8,7 +11,8 @@ function ContactSection({ socialLinks, servicess, contactInfo }) {
 
           <div className="col-lg-6 col-md-8 col-12">
             <div className="section-title-wrap d-flex justify-content-center align-items-center mb-5">
-              <img src="images/call_cellular_contact_phone_icon.png" className="avatar-image img-fluid" alt="" />
+              <img src={phoneIcon} className="avatar-image img-fluid" alt="Phone icon" />
+
               <h2 className="text-white ms-4 mb-0">Get A Touch With Me</h2>
             </div>
           </div>

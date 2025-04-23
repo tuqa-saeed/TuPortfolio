@@ -8,8 +8,6 @@ import ProjectsSection from './components/ProjectsSection';
 import ContactSection from './components/ContactSection';
 import Footer from './components/Footer'; 
 
-import './assets/css/bootstrap.min.css';
-import './assets/css/bootstrap-icons.css';
 import './assets/css/magnific-popup.css';
 import './assets/css/style1.css';
 

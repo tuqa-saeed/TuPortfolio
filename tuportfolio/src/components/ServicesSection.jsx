@@ -1,12 +1,13 @@
 import React from 'react';
-
+import keyboardImage from '../assets/images/keyboard.png';
 function ServicesSection({ services }) {
   return (
     <div className="container">
       <div className="row">
         <div className="col-lg-10 col-12 mx-auto">
           <div className="section-title-wrap d-flex justify-content-center align-items-center mb-5">
-            <img src="images/keyboard.png" className="avatar-image img-fluid" alt="" />
+          <img src={keyboardImage} className="avatar-image img-fluid" alt="Keyboard" />
+
             <h2 className="text-white ms-4 mb-0">Services</h2>
           </div>
 

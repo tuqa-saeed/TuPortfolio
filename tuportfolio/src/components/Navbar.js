@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/images/logo.png"; 
+import logo from '../assets/images/logo.png';
 
 function Navbar() {
   return (
@@ -19,6 +19,7 @@ function Navbar() {
 
         <a href="index.html" className="navbar-brand mx-auto mx-lg-0">
           <img src={logo} alt="Logo" width="70px" height="70px" />
+
         </a>
 
         <div className="d-flex align-items-center d-lg-none">
